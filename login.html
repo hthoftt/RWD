@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="六角西餐廳提供手作漢堡、義大利麵、排餐與精選飲品，立即瀏覽最新菜單與優惠資訊。"
+    />
+    <meta name="author" content="Tony" />
+    <meta property="og:title" content="註冊｜六角西餐廳" />
+    <meta
+      property="og:description"
+      content="人氣手作漢堡、精緻排餐與特色飲品，立即查看六角西餐廳完整菜單。"
+    />
+    <meta
+      property="og:image"
+      content="https://your-domain.com/images/menu-banner.jpg"
+    />
+    <meta property="og:url" content="https://your-domain.com/menu.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="六角西餐廳" />
+    <title>註冊-六角西餐廳</title>
+    <link rel="shortcut icon" href="img/main_chef_brown@2x.png" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- <div id="top"></div> -->
+    <div class="header">
+      <h1>
+        <a href="index.html">六角西餐廳</a>
+      </h1>
+      <ul class="hamburgerul">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="menu.html">訂餐</a></li>
+        <li><a href="login.html">登入</a></li>
+      </ul>
+      <i class="hamburger" onclick="">&#9776;</i>
+    </div>
+    <div class="banner">
+      <div>
+        <h2>咬一口<br />就無法忘懷的漢堡</h2>
+        <p>
+          七夕絕對無法錯過的好滋味<br /><span
+            class="fa-solid fa-utensils"
+            style="color: #ffffff"
+          ></span
+          >六角大漢堡<span
+            class="fa-solid fa-utensils"
+            style="color: #ffffff"
+          ></span>
+        </p>
+      </div>
+    </div>
+    <div class="content1">
+      <h2>六角西餐廳</h2>
+      <p>享受美食好味道</p>
+    </div>
+    <div class="content2">
+      <h3>REGISTER</h3>
+      <div>
+        <div>
+          <p>
+            就是這樣條款：<br />
+            Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget
+            libero posuere vulputate. Etiam elit elit, elementum sed varius at,
+            adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed,
+            ultricies sapien...
+          </p>
+          <form>
+            <label for="mail">Email Address</label>
+            <i class="fa-regular fa-envelope"></i>
+            <input type="mail" name="mail" id="mail" placeholder=" @gmil.com"/>
+            <label for="password">Password</label>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" id="password" placeholder=" 輸入密碼"/>
+            <input type="password" name="password" id="password" placeholder=" 再次輸入密碼"/>
+            <a href="#">已經有帳號了?</a>
+            <button>註冊</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footertext">
+        <div class="footertext1">
+          <h3>關於 六角西餐廳</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+            dolores ratione omn periores dolores ratione omn periores dolores
+            ratione omn.
+          </p>
+        </div>
+        <div class="footertext2">
+          <h3>聯絡方式</h3>
+          <ul>
+            <li>地址：高雄市中正五路到底</li>
+            <li>電話：+886 886 886</li>
+            <li>E-mail：hexschool@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footertext3">
+          <h2><a href="index.html">六角西餐廳</a></h2>
+          <a
+            href="#"
+            class="pc fa-brands fa-square-facebook"
+            style="color: #0e58d8"
+          ></a>
+          <a
+            href="#"
+            class="pc fa-brands fa-square-twitter"
+            style="color: #57c0f4"
+          ></a>
+          <a
+            href="#"
+            class="pc fa-brands fa-square-google-plus"
+            style="color: #f86212"
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="top"><a href="#top">▲</a></div>
+    <div class="bottom"><a href="#bottom">▼</a></div> -->
+    <!-- <div id="bottom"></div> -->
+    <script>
+      const ham = document.querySelector(".hamburger");
+      const hamul = document.querySelector(".hamburgerul");
+      ham.addEventListener("click", () => {
+        hamul.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+@import 'main.css';
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+.content .contentleft h3 {
+  font-size: 20px;
+  padding: 27px 0px 20px 0px;
+}
+.content .contentleft h3 span {
+  font-size: 26px;
+  padding-right: 15px;
+}
+.content .contentleft ul li {
+  border-bottom: 1px solid #64260c;
+  padding: 10px 0px 10px 5px;
+}
+.content .contentleft ul li a {
+  color: #64260c;
+  text-decoration: none;
+}
+
+.contentright {
+  display: flex;
+  justify-content: space-between;
+}
+.contentright div {
+  display: flex;
+  padding: 25px 0px;
+  width: 70%;
+}
+.contentright div input {
+  width: 80%;
+  padding: 7px 0px;
+  border: #64260c 2.5px solid;
+  background-color: #f7e5df;
+}
+.contentright div button {
+  width: 10%;
+  cursor: pointer;
+  border: none;
+  background-color: #64260c;
+  font-size: 18px;
+}
+.contentright p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 687px;
+  right: 20px;
+}
+.contentright p a {
+  text-decoration: none;
+  font-size: 25px;
+  border-left: #64260c 2px solid;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.contentright p span {
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  color: white;
+  background-color: #FF5E45;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
+
+.contentbtm ul li {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 5px #bdaca5;
+  position: relative;
+}
+.contentbtm ul li .heart {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+.contentbtm ul li img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contentbtm ul li h4 {
+  font-size: 20px;
+  padding: 10px 0px 20px 0px;
+}
+.contentbtm ul li h4 span {
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+.contentbtm ul li h4 span::before {
+  content: " ";
+  background-color: #64260c;
+  width: 25%;
+  height: 1px;
+  position: absolute;
+  left: 40%;
+  bottom: 100px;
+}
+.contentbtm ul li p {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.contentbtm ul li button {
+  background-color: #f7e5df;
+  width: 85%;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: #FF5E45 2px solid;
+  color: #FF5E45;
+  cursor: pointer;
+}
+.contentbtm ul li button span {
+  margin-right: 10px;
+  color: #FF5E45;
+}
+
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    width: 95%;
+  }
+  .content .contentleft {
+    width: 25%;
+    margin-right: 2%;
+  }
+  .content .contentleft li:hover {
+    background-color: #64260c;
+  }
+  .content .contentleft li:hover a {
+    color: white;
+  }
+  .content .contentleft li:hover {
+    cursor: pointer;
+  }
+  .content .contr {
+    width: 73%;
+  }
+  .content .contr .contentright {
+    width: 95%;
+    justify-content: space-between;
+  }
+  .content .contr .contentright div {
+    width: 70%;
+    padding-left: 10px;
+  }
+  .content .contr .contentright p {
+    position: static;
+  }
+  .content .contr .contentbtm ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content .contr .contentbtm ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 10px;
+  }
+  .content .contr .contentbtm ul li button:hover {
+    background-color: #FF5E45;
+    color: white;
+  }
+  .content .contr .contentbtm ul li button:hover span {
+    color: white;
+  }
+  .top, .bottom {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .content .contr .contentbtm ul li {
+    width: 30%;
+  }
+}/*# sourceMappingURL=menu.css.map */

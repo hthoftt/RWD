@@ -1,0 +1,207 @@
+@import 'main.css';
+.content{
+    width: 90%;
+    margin: 0 auto;
+    .contentleft{
+        h3{
+            font-size: 20px;
+            padding: 27px 0px 20px 0px;
+            span{
+                font-size: 26px;
+                padding-right: 15px;
+            }
+        }
+        ul{
+            li{
+                border-bottom: 1px solid #64260c;
+                padding: 10px 0px 10px 5px;
+                a{
+                    color:#64260c;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.contentright{
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: flex;
+        padding: 25px 0px;
+        width: 70%;
+        input{
+            width: 80%;
+            padding: 7px 0px;
+            border: #64260c 2.5px solid;
+            background-color: #f7e5df;
+        }
+        button{
+            width: 10%;
+            cursor: pointer;
+            border:none;
+            background-color: #64260c;
+            font-size: 18px;
+        }
+    }
+    p{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        top: 687px;
+        right: 20px;
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            border-left: #64260c 2px solid;
+            padding-left: 20px;
+            margin-left: 20px;
+        }
+        span{
+            width: 12px;
+            height: 12px;
+            border: 1.5px solid #ffffff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 9px;
+            color:white;
+            background-color: #FF5E45;
+            position: absolute;
+            top:-4px;
+            right:-4px;
+        }
+    }
+}
+.contentbtm{
+    ul{
+        li{
+            text-align: center;
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            box-shadow: 2px 2px 5px #bdaca5;
+            position: relative;
+            .heart{
+                font-size: 35px;
+                color: white;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                cursor: pointer;
+            }
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+            h4{
+                font-size:20px;
+                padding: 10px 0px 20px 0px;
+                span{
+                font-size:12px;
+                padding-bottom: 30px;
+            }
+                span::before{
+                    content:' ';
+                    background-color: #64260c;
+                    width: 25%;
+                    height: 1px;
+                    position: absolute;
+                    left: 40%;
+                    bottom: 100px;
+                }
+            }
+            p{
+                font-style: italic;
+                font-weight: 600;
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+            button{
+                background-color: #f7e5df;
+                width: 85%;
+                padding: 5px 0px;
+                border-radius: 5px;
+                border:#FF5E45 2px solid;
+                color: #FF5E45;
+                cursor: pointer;
+                span{
+                    margin-right: 10px;
+                    color: #FF5E45
+                }
+            }
+        }
+    }
+}
+@media(min-width: 768px){
+    .content{
+        display: flex;
+        width: 95%;
+        .contentleft{
+            width: 25%;
+            margin-right: 2%;
+        }
+        .contentleft{
+            li:hover{
+                background-color: #64260c;
+                a{color: white;}
+                cursor: pointer;
+            }
+        }
+        .contr{
+            width: 73%;
+            .contentright{
+                width: 95%;
+                justify-content: space-between;
+                div{
+                    width: 70%;
+                    padding-left: 10px;
+                }
+                p{
+                    position: static;
+                }
+            }
+            .contentbtm{
+                    ul{
+                        display: flex;
+                        flex-wrap: wrap;
+                        li{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            width: 45%;
+                            margin: 10px;
+                            button:hover{
+                                background-color: #FF5E45;
+                                color: white;
+                                span{
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .top,.bottom{
+            display: none;
+        }
+    }
+@media(min-width: 1024px){
+    .content {
+        .contr {
+            .contentbtm {
+                ul {
+                    li {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}

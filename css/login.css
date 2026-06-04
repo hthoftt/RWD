@@ -1,0 +1,84 @@
+@import 'main.css';
+.content1 {
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.content1 h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.content1 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content2 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid rgb(255, 123, 28);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(200, 200, 200);
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.content2 h3 {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+.content2 div {
+  padding: 10px;
+}
+.content2 div p {
+  line-height: 25px;
+  padding: 10px 0px;
+}
+.content2 div form i {
+  margin-top: 10px;
+}
+.content2 div form input {
+  margin: 10px 0px 0px 0px;
+  padding: 7px 0px;
+  width: 100%;
+}
+.content2 div form input:focus {
+  border: 2px black solid;
+}
+.content2 div form a {
+  color: rgb(255, 123, 28);
+  font-size: 14px;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+.content2 div form button {
+  float: right;
+  background-color: rgb(255, 123, 28);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 50px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.content2 div form button:hover {
+  background-color: #3D1101;
+}
+
+@media (min-width: 768px) {
+  .content2 div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .content2 div p {
+    width: 40%;
+  }
+  .content2 div form {
+    width: 40%;
+  }
+}/*# sourceMappingURL=login.css.map */
