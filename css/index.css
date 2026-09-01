@@ -7,10 +7,6 @@
   font-size: 20px;
   line-height: 35px;
 }
-.content1 div {
-  width: 80%;
-  margin: 0 auto;
-}
 .content1 div img {
   border-radius: 50%;
   width: 200px;
@@ -27,13 +23,13 @@
 
 @media (min-width: 768px) {
   .content1 span::before {
-    content: " ";
+    content: "";
     background-color: #3D1101;
     width: 13%;
     height: 1px;
     position: absolute;
-    left: 20%;
-    top: 63.5%;
+    left: 600px;
+    top: 490px;
   }
   .content1 span::after {
     content: "";
@@ -41,8 +37,8 @@
     width: 13%;
     height: 1px;
     position: absolute;
-    right: 20%;
-    top: 63.5%;
+    right: 600px;
+    top: 490px;
   }
   .content1 div {
     width: 100%;
