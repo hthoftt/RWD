@@ -4,8 +4,7 @@
 
 [線上 Demo](https://hthoftt.github.io/RWD/)
 
-<!-- 補一張截圖:把圖片放進 repo,再取消下一行註解 -->
-<!-- ![畫面截圖](./screenshot.png) -->
+![六角西餐廳首頁](./docs/screenshot.jpg)
 
 ## 功能
 - 頁面:首頁、訂餐、登入
